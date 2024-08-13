@@ -6,9 +6,12 @@ import org.bukkit.plugin.java.JavaPlugin
 class MilkNightVision : JavaPlugin() {
 
     override fun onEnable() {
-        getServer().pluginManager.registerEvents(MilkEventListener(this), this)
+        // Register the event listener
+        server.pluginManager.registerEvents(MilkListener(this), this)
+        logger.info("MilkNightVision plugin enabled.")
     }
 
     override fun onDisable() {
+        logger.info("MilkNightVision plugin disabled.")
     }
 }

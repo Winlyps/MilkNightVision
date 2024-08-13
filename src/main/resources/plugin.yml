@@ -1,6 +1,6 @@
 name: MilkNightVision
 version: '1.0-SNAPSHOT'
 main: winlyps.milkNightVision.MilkNightVision
-api-version: '1.20'
+api-version: '1.16'
 author: [Winlyps]
 description: Prevents players from losing night vision effect when drinking milk.
